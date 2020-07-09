@@ -48,3 +48,19 @@ button
 }
 #chats dd::before
 {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -6vw;
+    margin-top: -7vw;
+    border: 3vw solid transparent;
+    border-right: 8vw solid #ccc;
+    transform: rotate(40deg);
+    z-index: -1;
+}
+
+#form
+{
+    display:none;
+}
